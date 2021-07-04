@@ -37,3 +37,17 @@ ul li a{
     padding-right:30px;
    
 }
+.dropdown-content{
+    background:rgb(230, 219, 219);
+    display: none;
+    position: absolute;
+}
+.dropdown-content a{
+    display: block ;
+    color:black;
+    padding: 10px;
+   
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
